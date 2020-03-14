@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initialize();// TO initialize the views
 	setOnCLickListeners();// To initailize the view onClickListerners
-	int i=11;
-	    int j=22;
-	    int k=i+j;
+	int k=11;
+	    int r=22;
+	    int s=k+r;
     }
 }
