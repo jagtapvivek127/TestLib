@@ -7,6 +7,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+private int i;
+private TextView tvMater;
+private Button btnLogin;	
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,4 +21,11 @@ public class MainActivity extends AppCompatActivity {
 	    int r=22;
 	    int s=k+r;
     }
+
+
+private void initialize(){
+tvMaster = findViewById(R.id.tvMaster);
+btnLogin = findViewById(R.id.btnLogin);
+}
+
 }
